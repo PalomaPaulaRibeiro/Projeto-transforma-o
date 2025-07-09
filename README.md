@@ -1,5 +1,6 @@
 🏡 Análise de Dados de Hospedagens
 Este projeto realiza a leitura, limpeza e preparação de um conjunto de dados sobre hospedagens (em formato JSON), com o objetivo de organizar e transformar as informações para análise exploratória ou futura modelagem.
+___
 
 
 📦 Estrutura do Projeto
@@ -22,12 +23,12 @@ Os tipos de dados são ajustados:
 A coluna descricao_local é convertida para letras minúsculas
 Caracteres especiais são removidos usando expressões regulares
 A string é transformada em uma lista de palavras
-
+___
 
 🧹 Pré-processamento Final
 Ao fim do processo, temos um DataFrame com colunas devidamente tipadas e limpas, com 3.818 registros prontos para análise.
 
-
+___
 ✅ Requisitos
 Python 3.x
 
